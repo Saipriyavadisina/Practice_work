@@ -11,6 +11,7 @@
             I've started my journey in full stack development recently with the basics of front end development.<br>
             I like to challenge myself to improve my problem solving skills and enhance my skills to next level.
         </p>
+        <img height="200px" width="150px" src="https://i.pinimg.com/736x/bd/71/67/bd716707f2ca8bf2b1ed7d52e0fd16f9.jpg" alt="Alone girl with her thoughts doing her work">
         <h3> My hobbies </h3>
         <ol>
             <li> Dancing </li>
@@ -23,7 +24,63 @@
             <li> <a href="https://in.pinterest.com/" target="_blank"> Pinterest </a> for ideas and reference. </li>
             <li> <a href="https://www.jiosaavn.com/" target="'_blank"> Jiosavan </a> to listen my favorite music while working. </li>
         </ul>
-        <img height="300px" width="250px" src="https://i.pinimg.com/736x/bd/71/67/bd716707f2ca8bf2b1ed7d52e0fd16f9.jpg" alt="Alone girl with her thoughts doing her work">
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" cols="20"></textarea>
+            <br>
+
+            <button type="submit">Submit</button>
+            <br>
+        </form>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Book/Movie Name</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Godavari </td>
+                    <td> Melodrama </td>
+                    <td> 9.8/10 </td>
+                </tr>
+                <tr>
+                    <td> Anand </td>
+                    <td> Melodrama, Romance </td>
+                    <td> 9.5/10 </td>
+                </tr>
+                <tr>
+                    <td> Chinthakayala Ravi </td>
+                    <td> Melodrama, Romance </td>
+                    <td> 9.8/10 </td>
+                </tr>
+                <tr>
+                    <td> Ikigai </td>
+                    <td> Self-Help </td>
+                    <td> 8.8/10 </td>
+                </tr>
+                <tr>
+                    <td> The Love Hypothesis </td>
+                    <td> Romance </td>
+                    <td> 9/10 </td>
+                </tr>
+            </tbody>
+        </table>
+        
     </body>
 </html>
