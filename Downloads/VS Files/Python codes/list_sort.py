@@ -1,0 +1,6 @@
+li_1 = list(map(int, input().split()))
+li_1.sort()
+print(li_1)
+li_2 = list(map(int, input().split()))
+new_li = sorted(li_2)
+print(new_li)
