@@ -1,0 +1,18 @@
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
