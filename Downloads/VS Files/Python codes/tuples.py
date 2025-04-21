@@ -1,0 +1,5 @@
+tup = tuple(map(int, input().split()))
+print("First element: ",tup[0])
+print("Last element: ",tup[-1])
+print("Length of tuple: ", len(tup))
+print(10 in tup)
