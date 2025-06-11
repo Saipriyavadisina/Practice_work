@@ -53,8 +53,8 @@ body {
   }
   .grid-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 3px;
     padding: 5px;
     background-color: #bdb9b9;
   }
@@ -89,7 +89,8 @@ body {
     font-size: medium;
   }
   .card{
-    width: 150px;
+    width: 200px;
+    height: 100px;
     padding: auto;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
